@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DATN_NTH
+</name>
+</assembly>
+<members>
+<member name="T:DATN_NTH.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DATN_NTH.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DATN_NTH.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:DATN_NTH.My.Resources.Resources.close_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DATN_NTH.My.Resources.Resources.editname_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:DATN_NTH.UserService">
+ <summary>
+ Service người dùng, chuyên cung cấp các hàm liên quan đến người dùng
+ Ngày viết 20-09-2022
+ Chỉnh sửa : Chưa chỉnh sửa
+ Lưu ý: Project có sử dụng SQLSERVE
+ </summary>
+</member>
+<member name="M:DATN_NTH.UserService.GetAllUser">
+ <summary>
+ Return Users
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DATN_NTH.UserService.GetUserById(System.Int32)">
+ <summary>
+ Get User BY Id
+ </summary>
+ <param name="Id"></param>
+ <returns></returns>
+</member>
+<member name="M:DATN_NTH.UserService.Login(System.String,System.String)">
+ <summary>
+ Hàm Đăng nhập, Trả về thông tin của người dùng
+ </summary>
+ <param name="tk"></param>
+ <param name="Mk"></param>
+ <returns></returns>
+</member>
+<member name="M:DATN_NTH.UserService.InsertUser(DATN_NTH.tbl_user)">
+ <summary>
+ Thêm mới 1 người dùng vào trong cơ sử dữ liệu
+ </summary>
+ <param name="user"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>
