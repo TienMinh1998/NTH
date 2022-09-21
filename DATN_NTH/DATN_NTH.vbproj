@@ -75,12 +75,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cls_Coc.vb" />
+    <Compile Include="Cls_DaiMong.vb" />
+    <Compile Include="Cls_DiaChat.vb" />
+    <Compile Include="cls_LstCoc.vb" />
+    <Compile Include="Cls_TinhToan.vb" />
     <Compile Include="coc.Designer.vb">
       <DependentUpon>coc.vb</DependentUpon>
     </Compile>
     <Compile Include="coc.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DATA.vb" />
     <Compile Include="database.designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -96,6 +102,42 @@
       <DependentUpon>FormĐvsC.vb</DependentUpon>
     </Compile>
     <Compile Include="FormĐvsC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_BoTriCoc.Designer.vb">
+      <DependentUpon>Frm_BoTriCoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_BoTriCoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DiaChat.Designer.vb">
+      <DependentUpon>Frm_DiaChat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DiaChat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DuLieuCoc.Designer.vb">
+      <DependentUpon>Frm_DuLieuCoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DuLieuCoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_NoiLuc.Designer.vb">
+      <DependentUpon>Frm_NoiLuc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_NoiLuc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_vatlieucoc.Designer.vb">
+      <DependentUpon>Frm_vatlieucoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_vatlieucoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_vatlieudai.Designer.vb">
+      <DependentUpon>Frm_vatlieudai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_vatlieudai.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Hdai.Designer.vb">
@@ -136,6 +178,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormĐvsC.resx">
       <DependentUpon>FormĐvsC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_BoTriCoc.resx">
+      <DependentUpon>Frm_BoTriCoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DiaChat.resx">
+      <DependentUpon>Frm_DiaChat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DuLieuCoc.resx">
+      <DependentUpon>Frm_DuLieuCoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NoiLuc.resx">
+      <DependentUpon>Frm_NoiLuc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_vatlieucoc.resx">
+      <DependentUpon>Frm_vatlieucoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_vatlieudai.resx">
+      <DependentUpon>Frm_vatlieudai.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hdai.resx">
       <DependentUpon>Hdai.vb</DependentUpon>
@@ -182,6 +242,35 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

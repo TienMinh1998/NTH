@@ -83,7 +83,6 @@ D:\NTH\DATN_NTH\bin\Debug\DATN_NTH.pdb
 D:\NTH\DATN_NTH\bin\Debug\DATN_NTH.xml
 D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.vbproj.AssemblyReference.cache
 D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.vbproj.SuggestedBindingRedirects.cache
-D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.coc.resources
 D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.Main.resources
 D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.vl.resources
 D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.hmin.resources
@@ -95,3 +94,11 @@ D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.vbproj.CoreCompileInputs.cache
 D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.exe
 D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.xml
 D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.pdb
+D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.Frm_DiaChat.resources
+D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.vbproj.ResolveComReference.cache
+D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.frm_coc.resources
+D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.Frm_vatlieucoc.resources
+D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.Frm_vatlieudai.resources
+D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.Frm_NoiLuc.resources
+D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.Frm_BoTriCoc.resources
+D:\NTH\DATN_NTH\obj\Debug\DATN_NTH.Frm_DuLieuCoc.resources

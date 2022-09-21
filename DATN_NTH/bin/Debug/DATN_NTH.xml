@@ -32,6 +32,11 @@ DATN_NTH
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="F:DATN_NTH.DATA.LST_DiaChat">
+ <summary>
+ Phần tử thứ nhất của lớp đất chính là lớp đất đặt đài móng
+ </summary>
+</member>
 <member name="T:DATN_NTH.UserService">
  <summary>
  Service người dùng, chuyên cung cấp các hàm liên quan đến người dùng

@@ -26,6 +26,11 @@ Partial Class Main
         Me.bttNhapDS = New System.Windows.Forms.Button()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btn_nhapdiachat = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btn_khaibaovatlieucoc = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btn_khaibaovatlieudai = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KhaiBáoNộiLựcTínhToánToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btn_botricoc = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UndoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ForwardToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -37,6 +42,7 @@ Partial Class Main
         Me.bttNhapCot = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.pnlCenter = New System.Windows.Forms.Panel()
+        Me.btn_chon_kichthuoccoc = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -44,74 +50,111 @@ Partial Class Main
         '
         'bttNhapDS
         '
-        Me.bttNhapDS.Location = New System.Drawing.Point(137, 37)
+        Me.bttNhapDS.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bttNhapDS.Location = New System.Drawing.Point(9, 32)
+        Me.bttNhapDS.Margin = New System.Windows.Forms.Padding(4)
         Me.bttNhapDS.Name = "bttNhapDS"
-        Me.bttNhapDS.Size = New System.Drawing.Size(81, 38)
+        Me.bttNhapDS.Size = New System.Drawing.Size(128, 47)
         Me.bttNhapDS.TabIndex = 6
         Me.bttNhapDS.Text = "Nhập"
         Me.bttNhapDS.UseVisualStyleBackColor = True
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.EditToolStripMenuItem, Me.UndoToolStripMenuItem, Me.ForwardToolStripMenuItem, Me.HelpToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(796, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1061, 28)
         Me.MenuStrip1.TabIndex = 7
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'FileToolStripMenuItem
         '
+        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btn_nhapdiachat, Me.btn_khaibaovatlieucoc, Me.btn_khaibaovatlieudai, Me.KhaiBáoNộiLựcTínhToánToolStripMenuItem, Me.btn_botricoc, Me.btn_chon_kichthuoccoc})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(46, 24)
         Me.FileToolStripMenuItem.Text = "File"
+        '
+        'btn_nhapdiachat
+        '
+        Me.btn_nhapdiachat.Name = "btn_nhapdiachat"
+        Me.btn_nhapdiachat.Size = New System.Drawing.Size(274, 26)
+        Me.btn_nhapdiachat.Text = "Nhập Địa Chất"
+        '
+        'btn_khaibaovatlieucoc
+        '
+        Me.btn_khaibaovatlieucoc.Name = "btn_khaibaovatlieucoc"
+        Me.btn_khaibaovatlieucoc.Size = New System.Drawing.Size(274, 26)
+        Me.btn_khaibaovatlieucoc.Text = "Khai báo vật liệu cọc"
+        '
+        'btn_khaibaovatlieudai
+        '
+        Me.btn_khaibaovatlieudai.Name = "btn_khaibaovatlieudai"
+        Me.btn_khaibaovatlieudai.Size = New System.Drawing.Size(274, 26)
+        Me.btn_khaibaovatlieudai.Text = "Khai báo vật liệu Đài"
+        '
+        'KhaiBáoNộiLựcTínhToánToolStripMenuItem
+        '
+        Me.KhaiBáoNộiLựcTínhToánToolStripMenuItem.Name = "KhaiBáoNộiLựcTínhToánToolStripMenuItem"
+        Me.KhaiBáoNộiLựcTínhToánToolStripMenuItem.Size = New System.Drawing.Size(274, 26)
+        Me.KhaiBáoNộiLựcTínhToánToolStripMenuItem.Text = "Khai Báo Nội Lực Tính Toán"
+        '
+        'btn_botricoc
+        '
+        Me.btn_botricoc.Name = "btn_botricoc"
+        Me.btn_botricoc.Size = New System.Drawing.Size(274, 26)
+        Me.btn_botricoc.Text = "Bố trí cọc"
         '
         'EditToolStripMenuItem
         '
         Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
-        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
+        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(49, 24)
         Me.EditToolStripMenuItem.Text = "Edit"
         '
         'UndoToolStripMenuItem
         '
         Me.UndoToolStripMenuItem.Name = "UndoToolStripMenuItem"
-        Me.UndoToolStripMenuItem.Size = New System.Drawing.Size(48, 20)
+        Me.UndoToolStripMenuItem.Size = New System.Drawing.Size(59, 24)
         Me.UndoToolStripMenuItem.Text = "Undo"
         '
         'ForwardToolStripMenuItem
         '
         Me.ForwardToolStripMenuItem.Name = "ForwardToolStripMenuItem"
-        Me.ForwardToolStripMenuItem.Size = New System.Drawing.Size(62, 20)
+        Me.ForwardToolStripMenuItem.Size = New System.Drawing.Size(77, 24)
         Me.ForwardToolStripMenuItem.Text = "Forward"
         '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(55, 24)
         Me.HelpToolStripMenuItem.Text = "Help"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(38, 20)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(47, 24)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.Label1.Location = New System.Drawing.Point(272, 46)
+        Me.Label1.Location = New System.Drawing.Point(363, 57)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(245, 26)
+        Me.Label1.Size = New System.Drawing.Size(305, 31)
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "Danh sách các thông số"
         '
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.bttNhapDS)
-        Me.GroupBox1.Location = New System.Drawing.Point(3, 106)
+        Me.GroupBox1.Location = New System.Drawing.Point(4, 130)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(366, 81)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox1.Size = New System.Drawing.Size(488, 100)
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Đài và Cột "
@@ -119,18 +162,22 @@ Partial Class Main
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.bttNhapCot)
-        Me.GroupBox2.Location = New System.Drawing.Point(428, 106)
+        Me.GroupBox2.Location = New System.Drawing.Point(571, 130)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(366, 81)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
+        Me.GroupBox2.Size = New System.Drawing.Size(488, 100)
         Me.GroupBox2.TabIndex = 10
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Chi tiết cột"
         '
         'bttNhapCot
         '
-        Me.bttNhapCot.Location = New System.Drawing.Point(145, 43)
+        Me.bttNhapCot.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bttNhapCot.Location = New System.Drawing.Point(8, 32)
+        Me.bttNhapCot.Margin = New System.Windows.Forms.Padding(4)
         Me.bttNhapCot.Name = "bttNhapCot"
-        Me.bttNhapCot.Size = New System.Drawing.Size(81, 38)
+        Me.bttNhapCot.Size = New System.Drawing.Size(108, 47)
         Me.bttNhapCot.TabIndex = 7
         Me.bttNhapCot.Text = "Nhập"
         Me.bttNhapCot.UseVisualStyleBackColor = True
@@ -138,32 +185,40 @@ Partial Class Main
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(317, 33)
+        Me.Label2.Location = New System.Drawing.Point(423, 41)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(0, 13)
+        Me.Label2.Size = New System.Drawing.Size(0, 16)
         Me.Label2.TabIndex = 11
         '
         'pnlCenter
         '
         Me.pnlCenter.BackgroundImage = CType(resources.GetObject("pnlCenter.BackgroundImage"), System.Drawing.Image)
         Me.pnlCenter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.pnlCenter.Location = New System.Drawing.Point(0, 192)
-        Me.pnlCenter.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.pnlCenter.Location = New System.Drawing.Point(0, 236)
+        Me.pnlCenter.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
         Me.pnlCenter.Name = "pnlCenter"
-        Me.pnlCenter.Size = New System.Drawing.Size(794, 424)
+        Me.pnlCenter.Size = New System.Drawing.Size(1059, 522)
         Me.pnlCenter.TabIndex = 3
+        '
+        'btn_chon_kichthuoccoc
+        '
+        Me.btn_chon_kichthuoccoc.Name = "btn_chon_kichthuoccoc"
+        Me.btn_chon_kichthuoccoc.Size = New System.Drawing.Size(274, 26)
+        Me.btn_chon_kichthuoccoc.Text = "Chọn Kích Thước Cọc"
         '
         'Main
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(796, 612)
+        Me.ClientSize = New System.Drawing.Size(1061, 753)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.pnlCenter)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Main"
         Me.Text = "Trang chủ"
         Me.MenuStrip1.ResumeLayout(False)
@@ -189,4 +244,10 @@ Partial Class Main
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents bttNhapCot As Button
     Friend WithEvents Label2 As Label
+    Friend WithEvents btn_nhapdiachat As ToolStripMenuItem
+    Friend WithEvents btn_khaibaovatlieucoc As ToolStripMenuItem
+    Friend WithEvents btn_khaibaovatlieudai As ToolStripMenuItem
+    Friend WithEvents KhaiBáoNộiLựcTínhToánToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents btn_botricoc As ToolStripMenuItem
+    Friend WithEvents btn_chon_kichthuoccoc As ToolStripMenuItem
 End Class
