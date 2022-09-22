@@ -53,9 +53,10 @@ Partial Class vl
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.Label1.Location = New System.Drawing.Point(77, 9)
+        Me.Label1.Location = New System.Drawing.Point(103, 11)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(238, 26)
+        Me.Label1.Size = New System.Drawing.Size(294, 31)
         Me.Label1.TabIndex = 9
         Me.Label1.Text = "VẬT LIỆU MÓNG CỌC"
         '
@@ -79,9 +80,11 @@ Partial Class vl
         Me.GroupBox1.Controls.Add(Me.ComboBox1)
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Label10)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 38)
+        Me.GroupBox1.Location = New System.Drawing.Point(16, 47)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(356, 239)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(475, 294)
         Me.GroupBox1.TabIndex = 10
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "ĐÀI CỌC"
@@ -89,45 +92,50 @@ Partial Class vl
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(6, 189)
+        Me.Label24.Location = New System.Drawing.Point(8, 233)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(342, 13)
+        Me.Label24.Size = New System.Drawing.Size(413, 16)
         Me.Label24.TabIndex = 25
         Me.Label24.Text = "Thép của cọc neo trong đài >= 20d (chọn 40cm) và đầu cọc dài 10cm"
         '
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(6, 166)
+        Me.Label23.Location = New System.Drawing.Point(8, 204)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(166, 13)
+        Me.Label23.Size = New System.Drawing.Size(200, 16)
         Me.Label23.TabIndex = 24
         Me.Label23.Text = "Đài liên kết ngàm với cột và cọc. "
         '
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(104, 110)
+        Me.Label26.Location = New System.Drawing.Point(139, 135)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(44, 13)
+        Me.Label26.Size = New System.Drawing.Size(51, 16)
         Me.Label26.TabIndex = 19
         Me.Label26.Text = "kg/cm2"
         '
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(53, 110)
+        Me.Label27.Location = New System.Drawing.Point(71, 135)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(45, 13)
+        Me.Label27.Size = New System.Drawing.Size(55, 16)
         Me.Label27.TabIndex = 23
         Me.Label27.Text = "Label27"
         '
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(17, 110)
+        Me.Label28.Location = New System.Drawing.Point(23, 135)
+        Me.Label28.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(29, 13)
+        Me.Label28.Size = New System.Drawing.Size(34, 16)
         Me.Label28.TabIndex = 20
         Me.Label28.Text = "Rs ="
         '
@@ -135,88 +143,98 @@ Partial Class vl
         '
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"CI, A-I", "CII, A-II", "A-III (6:8)", "CIII, A-III (10:40)", "CIV, A-IV", "A-V"})
-        Me.ComboBox2.Location = New System.Drawing.Point(70, 79)
+        Me.ComboBox2.Location = New System.Drawing.Point(93, 97)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(111, 21)
+        Me.ComboBox2.Size = New System.Drawing.Size(147, 24)
         Me.ComboBox2.TabIndex = 22
         '
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Location = New System.Drawing.Point(6, 81)
+        Me.Label29.Location = New System.Drawing.Point(8, 100)
+        Me.Label29.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(61, 13)
+        Me.Label29.Size = New System.Drawing.Size(75, 16)
         Me.Label29.TabIndex = 21
         Me.Label29.Text = "CÔT THÉP"
         '
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(241, 57)
+        Me.Label20.Location = New System.Drawing.Point(321, 70)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(44, 13)
+        Me.Label20.Size = New System.Drawing.Size(51, 16)
         Me.Label20.TabIndex = 16
         Me.Label20.Text = "kg/cm2"
         '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(190, 57)
+        Me.Label21.Location = New System.Drawing.Point(253, 70)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(45, 13)
+        Me.Label21.Size = New System.Drawing.Size(55, 16)
         Me.Label21.TabIndex = 18
         Me.Label21.Text = "Label21"
         '
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(154, 57)
+        Me.Label22.Location = New System.Drawing.Point(205, 70)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(30, 13)
+        Me.Label22.Size = New System.Drawing.Size(34, 16)
         Me.Label22.TabIndex = 17
         Me.Label22.Text = "Rk ="
         '
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(104, 57)
+        Me.Label19.Location = New System.Drawing.Point(139, 70)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(44, 13)
+        Me.Label19.Size = New System.Drawing.Size(51, 16)
         Me.Label19.TabIndex = 13
         Me.Label19.Text = "kg/cm2"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 136)
+        Me.Label2.Location = New System.Drawing.Point(8, 167)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(103, 13)
+        Me.Label2.Size = New System.Drawing.Size(128, 16)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Chiều dày lớp lót đài"
         '
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(53, 57)
+        Me.Label18.Location = New System.Drawing.Point(71, 70)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(45, 13)
+        Me.Label18.Size = New System.Drawing.Size(55, 16)
         Me.Label18.TabIndex = 15
         Me.Label18.Text = "Label18"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(145, 132)
+        Me.TextBox1.Location = New System.Drawing.Point(193, 162)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(36, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(47, 22)
         Me.TextBox1.TabIndex = 1
         Me.TextBox1.Text = "80"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(17, 57)
+        Me.Label13.Location = New System.Drawing.Point(23, 70)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(30, 13)
+        Me.Label13.Size = New System.Drawing.Size(34, 16)
         Me.Label13.TabIndex = 13
         Me.Label13.Text = "Rn ="
         '
@@ -224,52 +242,58 @@ Partial Class vl
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"B15 - #200", "B20 - #250", "B22.5 - #300", "B25 - #350", "B30 - #400", "B35 - #450", "B40 - #500", "B45 - #550"})
-        Me.ComboBox1.Location = New System.Drawing.Point(70, 26)
+        Me.ComboBox1.Location = New System.Drawing.Point(93, 32)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(111, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(147, 24)
         Me.ComboBox1.TabIndex = 14
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(186, 135)
+        Me.Label3.Location = New System.Drawing.Point(248, 166)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(23, 13)
+        Me.Label3.Size = New System.Drawing.Size(29, 16)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "mm"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(6, 28)
+        Me.Label10.Location = New System.Drawing.Point(8, 34)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(55, 13)
+        Me.Label10.Size = New System.Drawing.Size(67, 16)
         Me.Label10.TabIndex = 13
         Me.Label10.Text = "BÊ TÔNG"
         '
         'BttF_VL
         '
-        Me.BttF_VL.Location = New System.Drawing.Point(287, 283)
+        Me.BttF_VL.Location = New System.Drawing.Point(383, 348)
+        Me.BttF_VL.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BttF_VL.Name = "BttF_VL"
-        Me.BttF_VL.Size = New System.Drawing.Size(81, 38)
+        Me.BttF_VL.Size = New System.Drawing.Size(108, 47)
         Me.BttF_VL.TabIndex = 6
         Me.BttF_VL.Text = "Tiếp tục"
         Me.BttF_VL.UseVisualStyleBackColor = True
         '
         'bttB_VL
         '
-        Me.bttB_VL.Location = New System.Drawing.Point(12, 283)
+        Me.bttB_VL.Location = New System.Drawing.Point(16, 348)
+        Me.bttB_VL.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.bttB_VL.Name = "bttB_VL"
-        Me.bttB_VL.Size = New System.Drawing.Size(81, 38)
+        Me.bttB_VL.Size = New System.Drawing.Size(108, 47)
         Me.bttB_VL.TabIndex = 11
         Me.bttB_VL.Text = "Quay lại"
         Me.bttB_VL.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(157, 283)
+        Me.Button3.Location = New System.Drawing.Point(209, 348)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(64, 38)
+        Me.Button3.Size = New System.Drawing.Size(85, 47)
         Me.Button3.TabIndex = 12
         Me.Button3.Text = "Lưu "
         Me.Button3.UseVisualStyleBackColor = True
@@ -282,14 +306,15 @@ Partial Class vl
         '
         'vl
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(372, 326)
+        Me.ClientSize = New System.Drawing.Size(519, 412)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.bttB_VL)
         Me.Controls.Add(Me.BttF_VL)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "vl"
         Me.Text = "VẬT LIỆU ĐÀI CỌC"
         Me.GroupBox1.ResumeLayout(False)

@@ -70,17 +70,18 @@ Partial Class Frm_BoTriCoc
         '
         'btn_luu
         '
+        Me.btn_luu.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_luu.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btn_luu.Image = CType(resources.GetObject("btn_luu.Image"), System.Drawing.Image)
         Me.btn_luu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_luu.Location = New System.Drawing.Point(306, 439)
+        Me.btn_luu.Location = New System.Drawing.Point(567, 427)
         Me.btn_luu.Margin = New System.Windows.Forms.Padding(4)
         Me.btn_luu.Name = "btn_luu"
-        Me.btn_luu.Size = New System.Drawing.Size(88, 47)
+        Me.btn_luu.Size = New System.Drawing.Size(130, 47)
         Me.btn_luu.TabIndex = 8
         Me.btn_luu.Text = "Lưu"
         Me.btn_luu.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btn_luu.UseVisualStyleBackColor = True
+        Me.btn_luu.UseVisualStyleBackColor = False
         '
         'GroupBox4
         '
@@ -115,17 +116,17 @@ Partial Class Frm_BoTriCoc
         '
         'btn_kiemtra
         '
+        Me.btn_kiemtra.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_kiemtra.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.btn_kiemtra.Image = CType(resources.GetObject("btn_kiemtra.Image"), System.Drawing.Image)
         Me.btn_kiemtra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_kiemtra.Location = New System.Drawing.Point(200, 38)
+        Me.btn_kiemtra.Location = New System.Drawing.Point(211, 39)
         Me.btn_kiemtra.Margin = New System.Windows.Forms.Padding(4)
         Me.btn_kiemtra.Name = "btn_kiemtra"
         Me.btn_kiemtra.Size = New System.Drawing.Size(111, 39)
         Me.btn_kiemtra.TabIndex = 2
         Me.btn_kiemtra.Text = "Kiểm Tra"
         Me.btn_kiemtra.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btn_kiemtra.UseVisualStyleBackColor = True
+        Me.btn_kiemtra.UseVisualStyleBackColor = False
         '
         'txtLd
         '
@@ -207,7 +208,7 @@ Partial Class Frm_BoTriCoc
         Me.dgv_botricoc.Name = "dgv_botricoc"
         Me.dgv_botricoc.RowHeadersVisible = False
         Me.dgv_botricoc.RowHeadersWidth = 51
-        Me.dgv_botricoc.Size = New System.Drawing.Size(290, 148)
+        Me.dgv_botricoc.Size = New System.Drawing.Size(302, 148)
         Me.dgv_botricoc.TabIndex = 3
         '
         'cl_stt
@@ -287,17 +288,18 @@ Partial Class Frm_BoTriCoc
         '
         'btn_Botricoc
         '
+        Me.btn_Botricoc.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_Botricoc.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btn_Botricoc.Image = CType(resources.GetObject("btn_Botricoc.Image"), System.Drawing.Image)
         Me.btn_Botricoc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_Botricoc.Location = New System.Drawing.Point(118, 158)
+        Me.btn_Botricoc.Location = New System.Drawing.Point(18, 148)
         Me.btn_Botricoc.Margin = New System.Windows.Forms.Padding(4)
         Me.btn_Botricoc.Name = "btn_Botricoc"
         Me.btn_Botricoc.Size = New System.Drawing.Size(121, 42)
         Me.btn_Botricoc.TabIndex = 2
         Me.btn_Botricoc.Text = "Bố Trí Cọc"
         Me.btn_Botricoc.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btn_Botricoc.UseVisualStyleBackColor = True
+        Me.btn_Botricoc.UseVisualStyleBackColor = False
         '
         'txtKC
         '
@@ -379,17 +381,18 @@ Partial Class Frm_BoTriCoc
         '
         'btn_sct
         '
+        Me.btn_sct.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_sct.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btn_sct.Image = CType(resources.GetObject("btn_sct.Image"), System.Drawing.Image)
         Me.btn_sct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_sct.Location = New System.Drawing.Point(118, 132)
+        Me.btn_sct.Location = New System.Drawing.Point(18, 132)
         Me.btn_sct.Margin = New System.Windows.Forms.Padding(4)
         Me.btn_sct.Name = "btn_sct"
         Me.btn_sct.Size = New System.Drawing.Size(121, 39)
         Me.btn_sct.TabIndex = 2
         Me.btn_sct.Text = "Tính SCT"
         Me.btn_sct.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btn_sct.UseVisualStyleBackColor = True
+        Me.btn_sct.UseVisualStyleBackColor = False
         '
         'txtPspt
         '

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Frm_NoiLuc
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Frm_NoiLuc
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_NoiLuc))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -42,7 +42,16 @@ Partial Class Frm_NoiLuc
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btn_luu = New System.Windows.Forms.Button()
+        Me.dgv_diachat = New System.Windows.Forms.DataGridView()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btn_load_excel = New System.Windows.Forms.Button()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.dgv_diachat, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -118,7 +127,7 @@ Partial Class Frm_NoiLuc
         Me.txtQx.Name = "txtQx"
         Me.txtQx.Size = New System.Drawing.Size(116, 22)
         Me.txtQx.TabIndex = 1
-        Me.txtQx.Text = "41.84"
+        Me.txtQx.Text = "0"
         '
         'Label4
         '
@@ -137,7 +146,7 @@ Partial Class Frm_NoiLuc
         Me.txtMy.Name = "txtMy"
         Me.txtMy.Size = New System.Drawing.Size(116, 22)
         Me.txtMy.TabIndex = 1
-        Me.txtMy.Text = "92.67"
+        Me.txtMy.Text = "0"
         '
         'Label3
         '
@@ -175,7 +184,7 @@ Partial Class Frm_NoiLuc
         Me.txtN.Name = "txtN"
         Me.txtN.Size = New System.Drawing.Size(116, 22)
         Me.txtN.TabIndex = 1
-        Me.txtN.Text = "1640.24"
+        Me.txtN.Text = "0"
         '
         'Label9
         '
@@ -239,29 +248,106 @@ Partial Class Frm_NoiLuc
         '
         'btn_luu
         '
+        Me.btn_luu.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btn_luu.Enabled = False
         Me.btn_luu.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btn_luu.Image = CType(resources.GetObject("btn_luu.Image"), System.Drawing.Image)
         Me.btn_luu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_luu.Location = New System.Drawing.Point(118, 289)
+        Me.btn_luu.Location = New System.Drawing.Point(13, 285)
         Me.btn_luu.Margin = New System.Windows.Forms.Padding(4)
         Me.btn_luu.Name = "btn_luu"
-        Me.btn_luu.Size = New System.Drawing.Size(110, 42)
+        Me.btn_luu.Size = New System.Drawing.Size(146, 42)
         Me.btn_luu.TabIndex = 5
         Me.btn_luu.Text = "Lưu"
         Me.btn_luu.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btn_luu.UseVisualStyleBackColor = True
+        Me.btn_luu.UseVisualStyleBackColor = False
+        '
+        'dgv_diachat
+        '
+        Me.dgv_diachat.AllowUserToAddRows = False
+        Me.dgv_diachat.AllowUserToDeleteRows = False
+        Me.dgv_diachat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgv_diachat.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5})
+        Me.dgv_diachat.Location = New System.Drawing.Point(340, 32)
+        Me.dgv_diachat.Name = "dgv_diachat"
+        Me.dgv_diachat.ReadOnly = True
+        Me.dgv_diachat.RowHeadersWidth = 51
+        Me.dgv_diachat.RowTemplate.Height = 24
+        Me.dgv_diachat.Size = New System.Drawing.Size(944, 242)
+        Me.dgv_diachat.TabIndex = 6
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "Fz(Max)"
+        Me.Column1.MinimumWidth = 6
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        Me.Column1.Width = 125
+        '
+        'Column2
+        '
+        Me.Column2.HeaderText = "Mx(Max)"
+        Me.Column2.MinimumWidth = 6
+        Me.Column2.Name = "Column2"
+        Me.Column2.ReadOnly = True
+        Me.Column2.Width = 125
+        '
+        'Column3
+        '
+        Me.Column3.HeaderText = "My(Max)"
+        Me.Column3.MinimumWidth = 6
+        Me.Column3.Name = "Column3"
+        Me.Column3.ReadOnly = True
+        Me.Column3.Width = 125
+        '
+        'Column4
+        '
+        Me.Column4.HeaderText = "Fx(Max)"
+        Me.Column4.MinimumWidth = 6
+        Me.Column4.Name = "Column4"
+        Me.Column4.ReadOnly = True
+        Me.Column4.Width = 125
+        '
+        'Column5
+        '
+        Me.Column5.HeaderText = "Fy(Max)"
+        Me.Column5.MinimumWidth = 6
+        Me.Column5.Name = "Column5"
+        Me.Column5.ReadOnly = True
+        Me.Column5.Width = 125
+        '
+        'btn_load_excel
+        '
+        Me.btn_load_excel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btn_load_excel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.btn_load_excel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btn_load_excel.Location = New System.Drawing.Point(167, 285)
+        Me.btn_load_excel.Margin = New System.Windows.Forms.Padding(4)
+        Me.btn_load_excel.Name = "btn_load_excel"
+        Me.btn_load_excel.Size = New System.Drawing.Size(155, 42)
+        Me.btn_load_excel.TabIndex = 5
+        Me.btn_load_excel.Text = "Load File ExCel"
+        Me.btn_load_excel.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btn_load_excel.UseVisualStyleBackColor = False
+        '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
         'Frm_NoiLuc
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(342, 344)
+        Me.ClientSize = New System.Drawing.Size(1296, 342)
+        Me.Controls.Add(Me.dgv_diachat)
+        Me.Controls.Add(Me.btn_load_excel)
         Me.Controls.Add(Me.btn_luu)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Frm_NoiLuc"
-        Me.Text = "Frm_NoiLuc"
+        Me.Text = "Nhập nội lực"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.dgv_diachat, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -285,4 +371,12 @@ Partial Class Frm_NoiLuc
     Friend WithEvents Label10 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents dgv_diachat As DataGridView
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents Column4 As DataGridViewTextBoxColumn
+    Friend WithEvents Column5 As DataGridViewTextBoxColumn
+    Friend WithEvents btn_load_excel As Button
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
 End Class

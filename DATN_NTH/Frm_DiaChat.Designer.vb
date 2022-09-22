@@ -126,10 +126,10 @@ Partial Class Frm_DiaChat
         Me.btn_sua.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btn_sua.Image = CType(resources.GetObject("btn_sua.Image"), System.Drawing.Image)
         Me.btn_sua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_sua.Location = New System.Drawing.Point(127, 359)
+        Me.btn_sua.Location = New System.Drawing.Point(102, 484)
         Me.btn_sua.Margin = New System.Windows.Forms.Padding(4)
         Me.btn_sua.Name = "btn_sua"
-        Me.btn_sua.Size = New System.Drawing.Size(100, 46)
+        Me.btn_sua.Size = New System.Drawing.Size(73, 46)
         Me.btn_sua.TabIndex = 5
         Me.btn_sua.Text = "Sửa"
         Me.btn_sua.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -140,10 +140,10 @@ Partial Class Frm_DiaChat
         Me.btn_them.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btn_them.Image = CType(resources.GetObject("btn_them.Image"), System.Drawing.Image)
         Me.btn_them.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_them.Location = New System.Drawing.Point(19, 359)
+        Me.btn_them.Location = New System.Drawing.Point(16, 483)
         Me.btn_them.Margin = New System.Windows.Forms.Padding(4)
         Me.btn_them.Name = "btn_them"
-        Me.btn_them.Size = New System.Drawing.Size(100, 46)
+        Me.btn_them.Size = New System.Drawing.Size(78, 46)
         Me.btn_them.TabIndex = 5
         Me.btn_them.Text = "Thêm"
         Me.btn_them.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -254,10 +254,6 @@ Partial Class Frm_DiaChat
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.btn_xoa)
-        Me.GroupBox2.Controls.Add(Me.btn_luu)
-        Me.GroupBox2.Controls.Add(Me.btn_sua)
-        Me.GroupBox2.Controls.Add(Me.btn_them)
         Me.GroupBox2.Controls.Add(Me.dgv_diachat)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(362, 49)
@@ -274,10 +270,10 @@ Partial Class Frm_DiaChat
         Me.btn_xoa.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btn_xoa.Image = CType(resources.GetObject("btn_xoa.Image"), System.Drawing.Image)
         Me.btn_xoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_xoa.Location = New System.Drawing.Point(343, 359)
+        Me.btn_xoa.Location = New System.Drawing.Point(262, 484)
         Me.btn_xoa.Margin = New System.Windows.Forms.Padding(4)
         Me.btn_xoa.Name = "btn_xoa"
-        Me.btn_xoa.Size = New System.Drawing.Size(100, 46)
+        Me.btn_xoa.Size = New System.Drawing.Size(81, 46)
         Me.btn_xoa.TabIndex = 5
         Me.btn_xoa.Text = "Xóa"
         Me.btn_xoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -288,10 +284,10 @@ Partial Class Frm_DiaChat
         Me.btn_luu.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btn_luu.Image = CType(resources.GetObject("btn_luu.Image"), System.Drawing.Image)
         Me.btn_luu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_luu.Location = New System.Drawing.Point(235, 359)
+        Me.btn_luu.Location = New System.Drawing.Point(183, 484)
         Me.btn_luu.Margin = New System.Windows.Forms.Padding(4)
         Me.btn_luu.Name = "btn_luu"
-        Me.btn_luu.Size = New System.Drawing.Size(100, 46)
+        Me.btn_luu.Size = New System.Drawing.Size(71, 46)
         Me.btn_luu.TabIndex = 5
         Me.btn_luu.Text = "Lưu"
         Me.btn_luu.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -309,7 +305,7 @@ Partial Class Frm_DiaChat
         Me.dgv_diachat.RowHeadersVisible = False
         Me.dgv_diachat.RowHeadersWidth = 51
         Me.dgv_diachat.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgv_diachat.Size = New System.Drawing.Size(883, 288)
+        Me.dgv_diachat.Size = New System.Drawing.Size(883, 366)
         Me.dgv_diachat.TabIndex = 4
         '
         'cl_lopdat
@@ -599,7 +595,7 @@ Partial Class Frm_DiaChat
         Me.btn_hoanthanh.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btn_hoanthanh.Image = CType(resources.GetObject("btn_hoanthanh.Image"), System.Drawing.Image)
         Me.btn_hoanthanh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_hoanthanh.Location = New System.Drawing.Point(573, 488)
+        Me.btn_hoanthanh.Location = New System.Drawing.Point(1112, 483)
         Me.btn_hoanthanh.Margin = New System.Windows.Forms.Padding(4)
         Me.btn_hoanthanh.Name = "btn_hoanthanh"
         Me.btn_hoanthanh.Size = New System.Drawing.Size(145, 47)
@@ -634,14 +630,14 @@ Partial Class Frm_DiaChat
         '
         Me.btn_nhapexcel.Image = CType(resources.GetObject("btn_nhapexcel.Image"), System.Drawing.Image)
         Me.btn_nhapexcel.Name = "btn_nhapexcel"
-        Me.btn_nhapexcel.Size = New System.Drawing.Size(166, 26)
+        Me.btn_nhapexcel.Size = New System.Drawing.Size(224, 26)
         Me.btn_nhapexcel.Text = "Nhập Excel"
         '
         'btn_xuatexcel
         '
         Me.btn_xuatexcel.Image = CType(resources.GetObject("btn_xuatexcel.Image"), System.Drawing.Image)
         Me.btn_xuatexcel.Name = "btn_xuatexcel"
-        Me.btn_xuatexcel.Size = New System.Drawing.Size(166, 26)
+        Me.btn_xuatexcel.Size = New System.Drawing.Size(224, 26)
         Me.btn_xuatexcel.Text = "Xuất Excel"
         '
         'Frm_DiaChat
@@ -649,12 +645,16 @@ Partial Class Frm_DiaChat
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1291, 543)
+        Me.Controls.Add(Me.btn_xoa)
         Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.btn_luu)
         Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.btn_sua)
         Me.Controls.Add(Me.btn_hoanthanh)
+        Me.Controls.Add(Me.btn_them)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Name = "Frm_DiaChat"
-        Me.Text = "Frm_DiaChat"
+        Me.Text = "Nhập Địa Chất"
         Me.GroupBox2.ResumeLayout(False)
         CType(Me.dgv_diachat, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)

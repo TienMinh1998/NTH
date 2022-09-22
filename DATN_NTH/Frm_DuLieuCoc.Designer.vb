@@ -44,17 +44,19 @@ Partial Class Frm_DuLieuCoc
         '
         'btn_luu
         '
+        Me.btn_luu.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btn_luu.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.btn_luu.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btn_luu.Image = CType(resources.GetObject("btn_luu.Image"), System.Drawing.Image)
         Me.btn_luu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_luu.Location = New System.Drawing.Point(162, 231)
+        Me.btn_luu.Location = New System.Drawing.Point(306, 241)
         Me.btn_luu.Margin = New System.Windows.Forms.Padding(4)
         Me.btn_luu.Name = "btn_luu"
-        Me.btn_luu.Size = New System.Drawing.Size(86, 42)
+        Me.btn_luu.Size = New System.Drawing.Size(101, 42)
         Me.btn_luu.TabIndex = 11
         Me.btn_luu.Text = "Lưu"
         Me.btn_luu.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.btn_luu.UseVisualStyleBackColor = True
+        Me.btn_luu.UseVisualStyleBackColor = False
         '
         'GroupBox1
         '
@@ -222,7 +224,7 @@ Partial Class Frm_DuLieuCoc
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(421, 310)
+        Me.ClientSize = New System.Drawing.Size(421, 292)
         Me.Controls.Add(Me.btn_luu)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Frm_DuLieuCoc"

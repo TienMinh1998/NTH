@@ -145,29 +145,6 @@
         mGofyp7Eap7nl/wJxzcLI4OsGm0AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btn_kiemtra.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAABBhJREFUSEud
-        lXFM1GUYx+/gCAPv1xEHhwTKySF4iJycVIuh/ZHnWDqQGYpa9E9bq7m0ra3lXG2ltbramqtcLO2PSnMV
-        isNCjCkG4WnUqF2A6zA4XrRWpjHuTuB5ep7Xl193KnT5bp89z973eb7f59777fczRK1UIp8oJcoIN7E8
-        TriWcREOwkzErFyDdofXuDLLn+DJHiZGEj3Z4l/micTV1zGpKPeiaqiHCZJGH2ntIU37dWmenMST3nJP
-        JX1cgQQo/iuf+Zy0lIn8JfmmB21+7dP78XaxHLp5jzT7WZsNSlMfzhq2fV4OBKoYTy7jqo4i2Ohz4IIj
-        7phz0gySdjEblGlrbCN5VECgivHkWNvtgMaBZ6B9sBVrOl1Q1OLSz0lTkHYJG7gtazPF4hYX/h8avsvD
-        z37dhuOhcZycnMSTQ6dx1clydH21VJ6z5rTB8vTqDFHWWgIEqjhrvvWnHGgb3YahUAjUwnA4DK/2vKHX
-        sqZukFljFRVfFwOBHCvbnfAYTbi+O5/39H1mx0AWnvljO4TCIVTiMDExgU2/HIQV7SV6LWvqBvPWpYuH
-        ThUhs/p0IW70LcIDfR+i9+dN8iqmz14JZKD/6rM0rRRHXlI88BF6Opx6HcOaukFObbpY21kANd8WYHWX
-        Ew71N0EkEsErY5dh32A9PNWbiy8HMqD3r+flPk+txOFwYD9UdxUi90u6CmTOmrrB/PV3izpfPm7wLUTv
-        D6/zfcrpWGds/Ao2iXrs/v0lVOLyjCc/MthIPQ7k3hthTd3A/kiaaOjJAwKf+H4xnB09Dvxk8KS8IpGw
-        nJaXEofmC+9iQ4+de2SfinrOmrqBo84inuzNBQI5bu0tIJNj/PjpojKhxZMfHXqbaufL2ui+6Jw1dYPC
-        DXeJ7f57MJrn/HY8d7FZPuPKQF5Ly7A3pm4mWFM3cNZr4oWBLCBQRZnvHMiFc5e+kFPTNcGx4K7ompja
-        G3PW1A2WbNIEPyWEfFqi812BbPCNfoJfBl+M2Y+Kt8xZc9rAXbrZLLxD6TgTbw5Zb7k/G6ypGyzbPFe8
-        IyxAoIrx5LOes+a0gctclRnc95sZCFQxnnzWc60qc4S05evaYay09ZW1LpWvgvcvanjgzxRs/jsZ20Im
-        PHUtETsnjdg9ZcQzUwYJ512013EtQdYcHUvGg5dTsPGShrsHrVjeVoIJK2znWZsNzAYtaU/Oe0umqug9
-        9PSPObD7ghU+oEmars6BEyETfDORwMJwFgg0oI8im54Im+Aw1eyn2teoh9+yazoX4YK9xfTJTNpL2hob
-        8LIbycTqSeu311qCzjqzWFafKu7dkiIeeHSOqGxIFiuZxxWU814Fnd235U5Zyz0Lay0jGZ6086TF4nL6
-        6MUfaP6G8r3xn3M7cC8Lq8kNhn8ADlVxUgVbmoYAAAAASUVORK5CYII=
-</value>
-  </data>
   <metadata name="cl_stt.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
